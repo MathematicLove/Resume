@@ -1,0 +1,184 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \\documentclass[10pt,a4paper]\{article\}	\
+\\usepackage[utf8]\{inputenc\}		\
+\\usepackage\{xifthen\}\
+\\usepackage[default]\{raleway\}\
+\\usepackage\{hyperref\}\
+\\renewcommand*\\familydefault\{\\sfdefault\} 	\
+\\usepackage[T1]\{fontenc\}\
+\\usepackage\{xcolor\}\
+\\usepackage\{moresize\}					\
+\\usepackage[a4paper]\{geometry\}		\
+\\geometry\{top=1.75cm, bottom=-.6cm, left=1.5cm, right=1.5cm\} 	\
+\\usepackage\{fancyhdr\}		\
+\\pagestyle\{fancy\}\
+\\setlength\{\\headheight\}\{-5pt\}		\
+\
+\\lhead\{\}\
+\\chead\{\\small\{\
+  \\textbf\{Salimli Ayzek $\\cdot$ \
+  Java-developer (Intern/Junior) $\\cdot$ \
+  Saint-Petersburg, Russia $\\cdot$ \
+  \\textcolor\{sectcol\}\{\\textbf\{\\href\
+  \{mailto:thisisnauchno@gmail.com\}\
+  \{thisisnauchno@gmail.com\}\}\} $\\cdot$\
+  +7 921 945 67 03\
+\}\}\}\
+\\rhead\{\}\
+\
+\\setlength\{\\parindent\}\{0mm\}\
+\
+\\usepackage\{multicol\}			\
+\\usepackage\{multirow\}\
+\\usepackage\{array\}\
+\\newcolumntype\{x\}[1]\{>\{\\raggedleft\\hspace\{0pt\}\}p\{#1\}\}\
+\\usepackage\{graphicx\}\
+\\usepackage\{wrapfig\}\
+\\usepackage\{float\}	\
+\\usepackage\{tikz\}				\
+\\usetikzlibrary\{shapes, backgrounds,mindmap, trees\}\
+\\usepackage\{color\}\
+\\definecolor\{sectcol\}\{RGB\}\{90,90,120\}\
+\\definecolor\{bgcol\}\{RGB\}\{110,110,110\}\
+\\definecolor\{softcol\}\{RGB\}\{225,225,225\}\
+\
+\\renewcommand\{\\headrulewidth\}\{0pt\} \
+\
+\\renewcommand\{\\footrulewidth\}\{0pt\}	  	\
+\
+\\renewcommand\{\\thepage\}\{\}	\
+	\
+\\renewcommand\{\\thesection\}\{\}			\
+\
+\
+\\newcommand\{\\tzlarrow\}\{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;\}	\
+\
+\\newcommand\{\\larrow\}[1]\{\
+  \\begin\{tikzpicture\}[scale=0.58]\
+    \\filldraw[fill=#1!100,draw=#1!100!black]  \\tzlarrow\
+  \\end\{tikzpicture\}\
+\}\
+\
+\\newcommand\{\\tzrarrow\}\{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;\}\
+\
+\\newcommand\{\\rarrow\}\{\
+  \\begin\{tikzpicture\}[scale=0.7]\
+    \\filldraw[fill=sectcol!100,draw=sectcol!100!black] \\tzrarrow\
+  \\end\{tikzpicture\}\
+\}\
+\
+\\newcommand\{\\cvsection\}[1]\{\
+  \\vspace\{10pt\}\
+  \\colorbox\{sectcol\}\{\\mystrut \\makebox[1\\linewidth][l]\{\
+    \\larrow\{bgcol\} \\hspace\{-8pt\} \\larrow\{bgcol\} \\hspace\{-8pt\} \
+    \\larrow\{bgcol\}\\textcolor\{white\}\{\\textbf\{#1\}\}\\hspace\{4pt\}\
+  \}\}\\\\\
+\}\
+\
+\\newcommand\{\\metasection\}[2]\{\
+  \\begin\{tabular*\}\{1\\textwidth\}\{p\{2.4cm\} p\{11cm\}\}\
+    \\larrow\{bgcol\} \\normalsize\{\\textcolor\{sectcol\}\{#1\}\}&#2\\\\[10pt]\
+  \\end\{tabular*\}\
+\}\
+\
+\\newcommand\{\\cvevent\}[3]\{\
+  \\begin\{tabular*\}\{1\\textwidth\}\{p\{2.5cm\} p\{10.5cm\} x \{4.0cm\}\}\
+    \\textcolor\{bgcol\}\{#1\} & \\textbf\{#2\} & \\vspace\{2.5pt\}\\textcolor\{sectcol\}\{#3\}\
+  \\end\{tabular*\}\
+  \\vspace\{-10pt\}\
+  \\textcolor\{softcol\}\{\\hrule\}\
+  \\vspace\{10pt\}\
+\}\
+\
+\\newcommand\{\\cvdetail\}[1]\{\
+  \\begin\{tabular*\}\{1\\textwidth\}\{p\{2.5cm\} p\{14.5cm\}\}\
+    & \\larrow\{bgcol\}  #1\\\\ [3pt]\
+  \\end\{tabular*\}\
+\}\
+\
+\\newcommand\{\\mystrut\}\{\\rule[-.3\\baselineskip]\{0pt\}\{\\baselineskip\}\}\
+\
+\\title\{resume\}\
+\\begin\{document\}\
+\
+\\pagestyle\{fancy\}	\
+\
+\\vspace\{-20pt\}\
+\
+\\hspace\{-0.25\\linewidth\}\\colorbox\{bgcol\}\{\
+  \\makebox[1.5\\linewidth][c]\{\
+    \\HUGE\{\\textcolor\{white\}\{\\textsc\{Salimli Ayzek\}\}\} \
+    \\textcolor\{sectcol\}\{\\rule[-1mm]\{1mm\}\{0.9cm\}\} \
+    \\HUGE\{\\textcolor\{white\}\{\\textsc\{Resume\}\}\}\
+  \}\
+\}\
+\
+\\begin\{figure\}[H]\
+\\begin\{flushright\}\
+  \\includegraphics[width=0.2\\linewidth]\{IMG_7864.jpeg\}\
+\\end\{flushright\}\
+\\end\{figure\}\
+\
+\\vspace\{-115pt\}\
+\
+\\metasection\{Status:\}\{Bachelor's student (e.y. 2026), SPbSTU, ICCS, Math and Computer Science\}\
+\\\\\
+\\metasection\{Language:\}\{Russian (Native speaker), English (B2)\}\
+\\\\\
+\\metasection\{Java Skills:\}\{Java (core), Spring framework, Spring MVC, Hibernate, Spring JPA, Spring JDBC, Concurrency, Maven, Gradle\}\
+\\\\\
+\\metasection\{Skills:\}\{Git, PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ, Docker, k8s, REST API, MVC, TCP/IP, Algorithms and data structures, Machine learning algorithms, Forecasting, Theory of probability, Math. statistics, Discrete math, ER, Use cases, BPM, BPMN\}\
+\\\\\
+\\metasection\{Other P.L.:\}\{\\textcolor\{magenta\}\{Haskell\}, \\textcolor\{olive\}\{C++\}, \\textcolor\{blue\}\{Python\}, \\textcolor\{purple\}R\}\
+\\\\\
+\\metasection\{Interests:\}\{Math, Math in computer science, AI, Adventure\}\
+\\\\\
+\\metasection\{Activities:\}\{Coding, Solving math problems, Music\}\
+\
+\\cvsection\{Summary\}\
+\\\\\
+Junior Java Developer with strong mathematical foundations, currently completing a Bachelor's degree in Mathematics and Computer Science at Peter the Great St. Petersburg Polytechnic University (SPbPU). Hands-on experience with Spring Framework, Hibernate, and REST API development, complemented by expertise in machine learning, algorithms, and database systems. Proven ability to solve optimization problems (VRP/DVRP) and implement AI solutions using LLM technologies (LangChain, OpenAI API). Passionate about applying mathematical modeling to solve real-world software engineering and data analysis challenges. Seeking opportunities to grow as a Backend/Java Developer while contributing to innovative technology projects.\
+\
+\\cvsection\{Experience\}\
+\
+\\cvevent\{'05/24 - 07/25\}\{ML-engineer and Back-end developer\}\{ \\href\{https://thebloomsbridge.io\}\
+      \{\\textcolor\{red\}\{\\textbf\{TheBloomsBridge\}\}\}\}\
+\\cvdetail\{Adding LLM model that trained on own data, using langchain, and OpenAI API\}\
+\\cvdetail\{Multivariate analysis of variance and regression analysis forecasting\}\
+\\cvdetail\{Full user's dashboard\}\
+\\cvdetail\{VRP and DVRP solving for delivery driver's\}\
+\\cvdetail\{Firebase deploying\}\
+\
+\\cvsection\{Education\}\
+\\cvevent\{2020 - 2026\}\{Bachelor, Math and Computer Science\}\{ \\href\{https://www.spbstu.ru\}\
+      \{\\textcolor\{red\}\{\\textbf\{SPbSTU\}\}\}\}\
+\\noindent\
+\\begin\{minipage\}\{0.1\\linewidth\}\
+  \\includegraphics[width=\\linewidth]\{logo_03.png\}\
+\\end\{minipage\}%\
+\\begin\{minipage\}\{0.5\\linewidth\}\
+  \\cvdetail\{Diploma: The dynamic VRP problem solution by using clustering algorithms.\}\
+  \\cvdetail\{Arcticle: Optimization of taxi supply based on dynamic VRP.\}\
+  \\cvdetail\{Arcticle: Railways safety using computer vision\}\
+  \\cvdetail\{Arcticle: Automating Offside Detection Using Computer Vision Algorithms\}\
+\\end\{minipage\} \
+\
+\\null\
+\\vspace*\{\\fill\}\
+\\hspace\{-0.25\\linewidth\}\\colorbox\{bgcol\}\{\
+  \\makebox[1.5\\linewidth][c]\{\
+    \\mystrut \\small \
+    \\textcolor\{white\}\{\
+      \\href\{https://github.com/MathematicLove\}\
+      \{\\textcolor\{red\}\{\\textbf\{https://github.com/MathematicLove\}\}\}\
+    \}\
+  \}\
+\}\
+\
+\\end\{document\}}
